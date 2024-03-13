@@ -8,6 +8,12 @@
     background-color: #eee;
     border-radius: 20px;
 }
+.f_th li:hover {
+    background-color: #ccc;
+}
+.s_th li:hover {
+    background-color: #ccc;
+}
 ul , li {
     list-style: none;
 }
