@@ -25,5 +25,5 @@ input[type=checkbox] {
     right: 0;
 }
 #modal:checked~.modalBox {
-    display: block;
+    display: block; 
 }
