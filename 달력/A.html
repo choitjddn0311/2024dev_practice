@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="a.css">
 </head>
 <body>
+    <input type="checkbox" id="modal">
     <div class="contain">
         <h2>2024년 4월</h2>
         <ul class="days">
@@ -44,8 +45,8 @@
             <li>16</li>
             <li>17</li>
             <li>18</li>
-            <li>19</li>
-            <li class="saturday">20</li>
+            <li>19</li> 
+            <label for="modal" class="btn"><li id="modal_li" class="saturday">20</li></label>
         </ul>
 
         <ul class="s_th">
@@ -63,6 +64,12 @@
             <li>29</li>
             <li>30</li>
         </ul>
+    </div>
+    <div class="modal_contain">
+        <div class="modalBox">
+            <label for="modal" class="close_btn">CLOSE</label>
+            <p>아직 게임이 없습니다.</p>
+        </div>
     </div>
 </body>
 </html>
